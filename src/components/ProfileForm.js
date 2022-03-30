@@ -10,7 +10,7 @@ const ProfileForm = () => {
 
 const handleChange = (e) => {
     const { name, value } = e.target;
-    // setProfile(prevState => ({...prevState, [name]: value }))
+    setProfile(prevState => ({...prevState, [name]: value }))
 };
 
 const handleSubmit = e => {
